@@ -1,0 +1,85 @@
+# #comments are notes or explainatn in your code that pyhton
+# #ignores when executing
+
+# #This is a single-line comment 
+# x = 5 # This comment is after code 
+
+# # anything after # on the same line is ingnored by python 
+
+
+# #Multi-line comments(Block comments)
+
+# # This is a block comment 
+# # spred across  multiple lines 
+
+# # using the hash  symbole 
+
+# using the triple quates ("""""""")
+
+# """"
+# this is  also the triple line quotes"""
+
+# '''' this is a multi-line comment 
+# using triple single quotes
+# '''
+
+# # Docstring(Documentation Strings)
+# # Doscstring are multi-ine literals usid to describe  fucntions, classes, or   modules 
+
+# def greet(name):
+#     """
+#     This fucntion greets the user 
+#     with their  provieded name
+
+#     """
+
+# print(f"Hello, {"raj"}!")
+# print(greet.doc__)
+
+# def greet(name):
+#     """
+#     This function greets the user
+#     with their provided name.
+#     """
+#     print(f"Hello, {name}!")
+
+# print(greet.__doc__)
+
+# name = input("Enter your name: ")
+# print(f"hello {name}!")
+
+for i in range(5):
+    if i ==3:
+        continue
+    print(i)
+
+
+
+# Escape sequnce in python 
+print("Hello\n world")
+
+print("Name\tAge")
+print("VEnkat\t21")
+
+print("He saud ,\" python is fun!\"")
+print("It\' a sunny day!")
+
+print("C:\\Users\\Venkat\\Documents")
+
+print("Hello\rWorld")
+
+print("hello\bWorld")
+
+
+print("\u2764")   # ❤
+print("\U0001F602")  # 😂
+
+
+
+
+
+
+
+
+
+                     
