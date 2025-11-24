@@ -1,0 +1,21 @@
+try: 
+    num = int(input("Enter an Integer: " ))
+except ValueError: 
+    print("Number entered is not an integer")
+else: 
+    print("Interger accepted")
+finally: 
+    print( "This block is always executed")
+def func1():
+  try:
+    l = [1, 5, 6, 7]
+    i = int(input("Enter the index: "))
+    print(l[i])
+    return 1
+  except:
+    print("Some error occurred")
+    return 0
+
+  finally:
+    print("I am always executed")
+  # print("I am always executed")
