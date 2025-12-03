@@ -1,0 +1,7 @@
+In Python, a generator
+ is a function that returns
+  an iterator, allowing you to
+   iterate over a sequence of 
+   values without storing the
+    entire sequence in memory. This is particularly useful when dealing with large datasets or
+ infinite sequences.
